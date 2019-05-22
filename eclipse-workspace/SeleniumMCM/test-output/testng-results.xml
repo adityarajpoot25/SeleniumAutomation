@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="310" started-at="2019-05-21T11:44:00Z" finished-at="2019-05-21T11:44:00Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="310" started-at="2019-05-21T11:44:00Z" finished-at="2019-05-21T11:44:00Z">
+      <class name="com.testAutomation.TestRunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.testAutomation.TestRunner.TestRunner@91161c7]" name="setUpClass" is-config="true" duration-ms="185" started-at="2019-05-21T11:44:00Z" finished-at="2019-05-21T11:44:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.testAutomation.TestRunner.TestRunner@91161c7]" name="feature" duration-ms="31" started-at="2019-05-21T11:44:00Z" data-provider="features" finished-at="2019-05-21T11:44:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Title of your feature]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.testAutomation.TestRunner.TestRunner@91161c7]" name="tearDownClass" is-config="true" duration-ms="19" started-at="2019-05-21T11:44:00Z" finished-at="2019-05-21T11:44:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.testAutomation.TestRunner.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
